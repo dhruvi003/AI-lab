@@ -52,3 +52,21 @@ Transition Operator: A transition operator defines the legal moves that can be m
 Goal Test: A* algorithm checks whether the current state is equal to the goal state. If the current state matches the goal state, the puzzle is considered solved.
 
 Optimality: A* algorithm guarantees optimality under certain conditions, specifically when the heuristic function is admissible (never overestimates the true cost) and consistent (satisfies the triangle inequality).
+
+## Lab week 4:
+
+Implement the Fixed Increment Perceptron Learning algorithm
+
+**Approach:**
+
+The first intercept perceptron implemented in Java is a basic neural network for binary classification tasks. It includes an extra input for an intercept value. Here's a quick overview:
+
+1. **Initialization**: Weights are initialized randomly, including one for the intercept.
+   
+2. **Training**: Iterate through training data, compute the weighted sum of inputs and weights, apply an activation function (e.g., step function), and adjust weights using the perceptron learning rule.
+   
+3. **Perceptron Learning Rule**: \( \Delta w_i = \eta \cdot (target - output) \cdot input_i \) where \( \Delta w_i \) is the change in weight for the \(i^{th}\) input, \( \eta \) is the learning rate, \( target \) is the desired output, \( output \) is the predicted output, and \( input_i \) is the \(i^{th}\) input value.
+   
+4. **Testing**: Once trained, predict outputs for new inputs.
+   
+5. **Evaluation**: Assess the performance of the perceptron.
