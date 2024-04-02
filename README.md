@@ -64,9 +64,11 @@ The first intercept perceptron implemented in Java is a basic neural network for
 1. **Initialization**: Weights are initialized randomly, including one for the intercept.
    
 2. **Training**: Iterate through training data, compute the weighted sum of inputs and weights, apply an activation function (e.g., step function), and adjust weights using the perceptron learning rule.
+
+## Lab Week 5:
    
-3. **Perceptron Learning Rule**: \( \Delta w_i = \eta \cdot (target - output) \cdot input_i \) where \( \Delta w_i \) is the change in weight for the \(i^{th}\) input, \( \eta \) is the learning rate, \( target \) is the desired output, \( output \) is the predicted output, and \( input_i \) is the \(i^{th}\) input value.
+4. **Perceptron Learning Rule**: \( \Delta w_i = \eta \cdot (target - output) \cdot input_i \) where \( \Delta w_i \) is the change in weight for the \(i^{th}\) input, \( \eta \) is the learning rate, \( target \) is the desired output, \( output \) is the predicted output, and \( input_i \) is the \(i^{th}\) input value.
    
-4. **Testing**: Once trained, predict outputs for new inputs.
+5. **Testing**: Once trained, predict outputs for new inputs.
    
-5. **Evaluation**: Assess the performance of the perceptron.
+6. **Evaluation**: Assess the performance of the perceptron.
