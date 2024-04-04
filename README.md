@@ -2,7 +2,7 @@
 
 WAP to implement DFS and BFS for traversing a graph from source node (S) to goal node (G), where source node and goal node is given by the user as an input.
 
-**Answer:**
+**Theory:**
 Breadth-First Search (BFS):
 BFS is a graph traversal algorithm that explores all the nodes at the current depth level before moving on to the nodes at the next depth level. It starts at the root node and systematically explores each level of the graph outward from the starting point. BFS uses a queue data structure to keep track of the nodes to be explored. This algorithm is often used to find the shortest path between two nodes in an unweighted graph.
 
@@ -72,3 +72,22 @@ The first intercept perceptron implemented in Java is a basic neural network for
 5. **Testing**: Once trained, predict outputs for new inputs.
    
 6. **Evaluation**: Assess the performance of the perceptron.
+
+
+## Lab week 5: 
+
+Implementation of Backpropagation Network
+
+**Theory:**
+
+Backpropagation is a key algorithm for training artificial neural networks (ANNs). It works by iteratively adjusting the weights and biases of the network to minimize the difference between predicted and actual outputs.
+
+1. **Feedforward Process** : Input data is passed through the network to produce an output.
+
+2. **Backward Pass** : Error is propagated backward through the network, and gradients are computed for each weight and bias.
+
+3. **Weight Update** : Weights and biases are adjusted based on the calculated gradients, aiming to minimize the error.
+
+4. **Activation Functions** : These introduce non-linearity, allowing the network to learn complex relationships.
+
+5. **Training Process** : Iteratively feed data, compute error, adjust weights, and repeat until convergence.
